@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(
+        to bottom,
+        #007BC4 0%,
+        #007BC4 14.3%,
+        white 14.3%,
+        white 28.6%,
+        #007BC4 28.6%,
+        #007BC4 42.9%,
+        white 42.9%,
+        white 57.2%,
+        #007BC4 57.2%,
+        #007BC4 71.5%,
+        white 71.5%,
+        white 85.8%,
+        #007BC4 85.8%,
+        #007BC4 100%
+    );
+    min-height: 400vh;
+    margin: 0;
+}
+
+body h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-top: 20vh;
+    }
