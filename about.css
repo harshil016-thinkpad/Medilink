@@ -1,0 +1,135 @@
+.hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('doc.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Times new roman';
+}
+
+.hero-content h1{
+    margin-bottom:1rem;
+    font-size: 100px;
+    text-align: center;   
+}
+
+.hero-content p{
+    margin-bottom: 2rem;
+    max-width: 600px;
+    font-size: 20px;
+    text-align:right;
+    margin-left: 60px;
+}
+
+.btn{
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin:0 0.5rem;
+}
+
+.btn:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.6);
+    border-radius:10px;
+}
+
+.btn-primary {background-color : #ff5722; color: white;}
+.btn-secondary{ background-color :transparent; border:2px solid white; color:white;}
+
+.cream-box{
+    width: 1450px;
+    height:500px;
+    border-radius:  30px;
+    background-color:orange;
+    padding:20px;
+    margin-left:9px;
+    margin-top: 10px;
+    font-size:larger;
+          
+}
+
+.cream-box h3{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-width: 150%;
+}
+
+.cream-box p{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vision-box{
+    width: 550px;
+    height:150px;
+    border-radius:  30px;
+    background-color:#ff5722e6 ;
+    padding:20px;
+    margin-left:9px;
+    margin-top: 50px;
+    font-size:larger;
+}
+
+.vision-box h3{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-width: 150%;
+}
+
+.vision-box p{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mission-box{
+    width: 550px;
+    height:150px;
+    border-radius:  30px;
+    background-color:#ffa500e6;
+    padding:20px;
+    margin-left:900px;
+    margin-top: -50px;
+    margin-bottom:200px;
+    font-size:larger;
+}
+
+
+.mission-box h3{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-width: 150%;
+}
+
+.mission-box p{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.staff-box{
+    width: 1450px;
+    height:300px;
+    border-radius:  30px;
+    background-color:orange;
+    padding:20px;
+    margin-left:9px;
+    margin-top: 50px;
+    font-size:larger;
+}
+
+
+.staff-box h3{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-width: 150%;
+}
+
+.staff-box p{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

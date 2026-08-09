@@ -1,0 +1,80 @@
+.hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('book.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Times new roman';
+}
+
+.hero-content h3{
+    font-size:3rem;
+    margin-bottom:1rem;
+    font-size: 100px;
+}
+
+.hero-content p{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    font-size: 20px;
+    text-align:end ;
+}
+
+.btn{
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin:0 0.5rem;
+}
+
+.btn:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.6);
+    border-radius:10px;
+}
+
+.btn-primary {background-color : #ff5722; color: white;}
+.btn-secondary{ background-color :transparent; border:2px solid white; color:white;}
+
+
+.white-box{
+    background-color: orange ;
+    color:#333333;
+    width:500px;
+    height:600px;
+    padding:20px;
+    margin:115px;
+    border-radius:80px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    margin-top:-1000px;
+    margin-left:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+}
+
+.white-box h4{
+    margin-left:20px;
+    color:white;
+    font-size:60px; 
+    text-align:left;
+}
+
+.white-box h5{
+    font-size:20px;
+    margin-top:-50px;
+    color:white;
+
+}
+
+.white-box p{
+    font-size:20px;
+    margin-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    }
