@@ -79,4 +79,11 @@
     color:white;
     }
 
+    @media screen and (max-width: 600px){
+    container, white-box{
+        width:auto;
+        float:none;
+    }
+}
+
 
