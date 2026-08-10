@@ -80,7 +80,7 @@
     }
 
     @media screen and (max-width: 600px){
-    aside, article, section{
+    container , white-box{
         width:100%;
         float:none;
     }
