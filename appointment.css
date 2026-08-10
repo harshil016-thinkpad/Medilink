@@ -79,11 +79,6 @@
     color:white;
     }
 
-    @media screen and (max-width: auto){
-    container, white-box{
-        width:auto;
-        float:none;
-    }
-}
+
 
 
